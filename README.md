@@ -63,13 +63,3 @@ Notifications query parameters:
 limit, page, notification_type
 ```
 
-## Compliance
-
-- No `console.log()` usage
-- Live notification API path
-- No hard-coded notification fallback
-- Spec-shaped logging middleware
-- CORS handled by Vite dev proxy
-- Loading, empty, and error states implemented
-
-See [NOTIFICATION_SYSTEM_DESIGN.md](./NOTIFICATION_SYSTEM_DESIGN.md) for priority scoring details.
